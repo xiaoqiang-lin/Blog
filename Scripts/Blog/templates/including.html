@@ -1,0 +1,28 @@
+{% load staticfiles %}
+<div class="sidebar">
+  <div class="cloud">
+    <h2 class="hometitle">博客分类</h2>
+    <ul>
+      {% for category in allCategories %}
+        <a href="/">{{ category }}</a>
+      {% empty %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="tuijian">
+    <h2 class="hometitle">热门阅读</h2>
+    <ul class="tjpic">
+      <i><img src="{% static 'images/toppic01.jpg' %}"></i>
+      <p><a href="/">{{ counterObjs.first.blog_title }}</a></p>
+    </ul>
+    <ul class="sidenews">
+    {% for blog in allBlogs %}
+      <li> <i><img src="{% static 'images/toppic01.jpg' %}"></i>
+        <h4><a href="/">{{ blog.blog_title }}</a></h4>
+        <span>{{ blog.posted_time }}</span> </li>
+    {% endfor %}
+
+      
+    </ul>
+  </div>
+</div>

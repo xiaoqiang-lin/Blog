@@ -1,0 +1,71 @@
+.comment_area .comment_area_title{
+    line-height: 40px; font-size: 14px; padding-left: 30px; color: #000;
+}
+.comment_area .login_tips{
+    margin-left:25px;
+}
+.no_comments{
+    margin-bottom:15px;
+}
+.login_btn{
+    width: 50px;
+    height: 32px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit_btn{
+    margin-right: 40px;
+    width: 50px;
+    height: 32px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register_btn{
+    width: 50px;
+    height: 32px;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.django-ckeditor-widget{
+    margin:5px auto;
+    width: 100%;
+}
+.display_comments{
+    margin-left: 20px;
+}
+.display_comments .comments{
+   margin-bottom:10px; 
+}
+.reply_btn{
+    color:blue;
+    float:right;
+    margin-right:30px;
+    cursor: pointer;
+}
+.comments{
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    margin-right:2em;
+    padding-bottom: 0.5em;
+}
+.replies{
+    margin-left: 2em;
+}
+.reply_whom{
+    margin-left: 1.6em;
+}
+.reply_what{
+    margin-left: 5em;
+}
